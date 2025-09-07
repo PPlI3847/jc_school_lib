@@ -12,8 +12,9 @@ AI 기반 도서 검색 및 추천 시스템입니다.
 
 1. **저장소 클론**
    ```bash
-   git clone https://github.com/yourusername/school-library-search.git
-   cd school-library-search
+   git clone https://github.com/PPlI3847/jc_school_lib
+   cd jc_school_lib
+
    ```
 
 2. **의존성 설치**
@@ -27,12 +28,15 @@ AI 기반 도서 검색 및 추천 시스템입니다.
    ```
    `.env` 파일에서 `GEMINI_API_KEY`를 설정하세요.
 
-4. **서버 실행**
+   예시
+   `GEMINI_API_KEY = Your Gemini Key`
+
+5. **서버 실행**
    ```bash
    python server.py
    ```
 
-5. **접속**
+6. **접속**
    ```
    http://localhost:3000
    ```
