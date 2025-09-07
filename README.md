@@ -23,7 +23,7 @@ AI 기반 도서 검색 및 추천 시스템입니다.
 
 3. **환경 변수 설정**
    ```bash
-   cp .env.example .env
+   cp .env
    ```
    `.env` 파일에서 `GEMINI_API_KEY`를 설정하세요.
 
@@ -46,13 +46,16 @@ AI 기반 도서 검색 및 추천 시스템입니다.
 ## 파일 구조
 
 ```
-├── server.py              # FastAPI 서버
-├── requirements.txt       # 의존성
-├── .env.example          # 환경변수 템플릿
-├── index.html            # 메인 페이지
-├── style.css             # 스타일
-└── script.js             # 클라이언트 코드
+├── server.py             # FastAPI 서버
+├── requirements.txt      # 의존성
+├── .env                  # 환경변수 템플릿
+├── public/
+      ├── index.html      # 메인 페이지
+      ├── style.css       # 스타일
+      └── script.js       # 클라이언트 코드
 ```
+
+GitHub에 올라온 index.html, sytle,css, script.js를 public폴더를 생성에 넣은다음 실행하세요
 
 ## 기술 스택
 
