@@ -30,7 +30,7 @@ AI 기반 도서 검색 및 추천 시스템입니다.
 
    예시
    ```.env
-   `GEMINI_API_KEY = Your Gemini Key`
+   GEMINI_API_KEY = Your Gemini Key
    ```
 
 5. **서버 실행**
