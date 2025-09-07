@@ -29,7 +29,9 @@ AI 기반 도서 검색 및 추천 시스템입니다.
    `.env` 파일에서 `GEMINI_API_KEY`를 설정하세요.
 
    예시
+   ```.env
    `GEMINI_API_KEY = Your Gemini Key`
+   ```
 
 5. **서버 실행**
    ```bash
