@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>종촌고등학교 도서 검색</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="chat-container" class="chat-container"></div>
+        
+        <div class="search-container">
+            <div class="logo" id="logo">어떤 책을 찾고 있나요?</div>
+            <form class="search-box" id="searchForm">
+                <textarea class="search-input" autofocus placeholder="'컴퓨터 공학을 수학I과 엮을 수 있는 책들을 추천해줘'" id="searchInput" rows="1"></textarea>
+            </form>
+        </div>
+    </div>
+
+    <div class="book-modal" id="bookModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modalTitle">추천 도서 목록</div>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="book-list" id="bookList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
